@@ -1,0 +1,145 @@
+body {
+    background: whitesmoke;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+   }
+header {
+    color: rgb(189, 39, 64);
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 5px;
+    background: rgb(239, 216, 219);
+}
+#maintxt {
+    width: 500px;
+    padding: 20px;
+    background: rgb(239, 239, 243);
+    color: rgb(212, 22, 140);
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 2px red;
+
+}
+#glow {
+    background: rgb(239, 216, 219);
+    display: grid;
+}
+.glowdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(248, 255, 210);
+    margin: 10px;
+    border: 5px solid rgb(255, 169, 184);
+}
+#glowtxt1,#glowtxt2, #glowtxt3, #glowtxt4, #glowtxt5 {
+    width: 450px;
+    padding: 15px;
+    margin: 15px;
+    font-size: 32px;
+    font-weight: medium;
+    color: rgb(59, 33, 65);
+    border-radius: 5px;
+    background: rgb(255, 188, 214);
+}
+img {
+    width:600px; 
+    height: 350px; 
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+#donts {
+ margin-left: auto;
+    margin-right: auto;
+}
+#harsh {
+    font-size: 30px;
+    color: rgb(78, 42, 75);
+    padding: 5px;
+}
+.harshtxt{
+    font-size: 25px;
+    color: rgb(54, 37, 85);
+}
+#advert{
+    height: 300px;
+    /* width: 950px; */
+    background:  rgb(175, 175, 206);
+    color: rgb(212, 22, 140);
+    margin: 20px;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+footer {
+    background: rgba(53, 53, 53, 0.89);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    margin: 0px;
+
+}
+@media(max-width:480px) {
+   #header {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #main{
+       display: flex;
+       flex-direction: column;
+       padding: 7px;
+       margin-left: 12rem;
+    }
+    #maintext{
+        font-size: 10px;
+    } 
+    .glowdiv{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    img {
+    width:450px; 
+    height: 300px; 
+    border-top-left-radius:25%;
+    border-top-right-radius:25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+    #harsh {
+    font-size: 20px;
+   
+}
+    .harshtxt{
+    font-size: 15px;
+    font-weight: 700;
+     margin-left: auto;
+    margin-right: auto;   
+}
+ 
+}
+
+
+@media  (min-width:481px) and (max-width: 860px) {
+}
+
+@media  (min-width:861px) and (max-width:1024px) {
+    
+}
+
+@media  (min-width: 1024px) {
+    
+}
